@@ -2,10 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Plain HTML Website</title>
+    <style>
+        /* Minimal layout rules for a clean look */
+        body {
+            font-family: system-ui, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, nav, main, footer {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        nav a {
+            margin-right: 15px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Sample page.</p>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome</h1>
+        <p>A simple HTML page.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <h2>About</h2>
+        <p>This is an HTML template that relies on standard browser defaults without heavy frameworks.</p>
+        
+        <h3>Key Features</h3>
+        <ul>
+            <li><strong>Responsive Layout:</strong> Auto-fits mobile and desktop screens.</li>
+            <li><strong>Semantic Tags:</strong> Structured with modern HTML5 layout tags.</li>
+            <li><strong>No Dependencies:</strong> Zero JavaScript required to run.</li>
+        </ul>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 This Website.</p>
+    </footer>
+
 </body>
 </html>
